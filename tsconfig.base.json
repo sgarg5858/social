@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@social/auth-data-access": ["libs/auth/data/src/index.ts"],
+      "@social/auth-feature": ["libs/auth/feature/src/index.ts"],
+      "@social/auth-model": ["libs/auth/model/src/index.ts"],
+      "@social/auth-ui": ["libs/auth/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
